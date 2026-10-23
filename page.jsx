@@ -1,5 +1,7 @@
 'use client';
 
+export const runtime = 'edge';
+
 import { useEffect, useRef, useState } from 'react';
 import { hasSupabaseEnv, supabase } from '@/lib/supabase';
 import { useStreak } from '@/lib/streak';
