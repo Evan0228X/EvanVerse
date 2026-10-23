@@ -201,3 +201,4 @@ export default function RoomPage({ params }) {
     </div>
   );
 }
+export const runtime = 'edge';
